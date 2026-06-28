@@ -20,8 +20,6 @@ Contém a implementação do primeiro roteiro do projeto, incluindo:
 
 #### Capturas de tela
 
-> Adicione aqui imagens da primeira etapa do projeto.
-
 **Página inicial**
 
 <p align="center">
@@ -47,8 +45,6 @@ Contém a continuação do projeto, implementando todas as atividades propostas 
 * Organização da aplicação seguindo o padrão **MTV (Model–Template–View)** do Django.
 
 #### Capturas de tela
-
-> Adicione aqui imagens da segunda etapa do projeto.
 
 **Página inicial com mensagens**
 
