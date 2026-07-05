@@ -90,8 +90,7 @@ Nesta etapa foram implementados:
 **Página do admin com Mensagem e Categorias**
 
 <p align="center">
-  <img width="1846" height="1041" alt="Screenshot from 2026-07-05 20-26-36" src="https://github.com/user-attachments/assets/5f8fc032-7810-4b7b-babd-ac3e5aea3ca8" alt="Página do admin com Mensagem e Categorias*<img width="1846" height="1041" alt="Screenshot from 2026-07-05 20-26-45" src="https://github.com/user-attachments/assets/44b81105-f717-45bd-b632-291bd91c394a" />
-" width="800"/>
+  <img width="1846" height="1041" alt="Screenshot from 2026-07-05 20-26-36" src="https://github.com/user-attachments/assets/5f8fc032-7810-4b7b-babd-ac3e5aea3ca8" alt="Página do admin com Mensagem e Categorias" width="800">
 </p>
 
 **Categoria Aviso Cadastrada**
