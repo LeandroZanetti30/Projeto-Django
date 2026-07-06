@@ -107,6 +107,51 @@ Nesta etapa foram implementados:
 </p>
 
 
+
+
+---
+
+### `bcc481-django-parte4`
+
+Contém a implementação do quarto roteiro, introduzindo o relacionamento **muitos-para-muitos (N:N)** entre modelos e ampliando a estrutura do banco de dados da aplicação.
+
+Nesta etapa foram implementados:
+
+* Criação do modelo **Tag**;
+* Relacionamento **muitos-para-muitos (N:N)** entre `Mensagem` e `Tag` utilizando `ManyToManyField`;
+* Configuração do modelo `Tag` utilizando `SlugField` para armazenamento de identificadores únicos;
+* Registro do modelo `Tag` no painel administrativo do Django;
+* Configuração do `filter_horizontal` para facilitar a seleção de múltiplas tags no Admin;
+* Inclusão de filtros por tags no painel administrativo;
+* Geração e aplicação das novas migrations;
+* Associação de múltiplas tags às mensagens;
+* Exibição das tags na página inicial utilizando badges estilizadas com Tailwind CSS;
+* Continuidade da organização do projeto seguindo o padrão **MTV (Model–Template–View)** do Django.
+
+#### Capturas de tela
+
+**Página inicial com categorias e tags**
+
+<p align="center">
+  
+<img width="1846" height="1041" alt="Screenshot from 2026-07-05 21-10-12" src="https://github.com/user-attachments/assets/a6e650cc-6c5f-4b20-9b94-09fb6d2395e4" width="800"/>
+</p>
+
+**Cadastro de tags no painel administrativo**
+
+<p align="center">
+  
+<img width="1846" height="1041" alt="Screenshot from 2026-07-05 21-10-30" src="https://github.com/user-attachments/assets/0dc49f54-e8d3-4eb8-82b3-590568b9d329" width="800"/>
+</p>
+
+**Associação de múltiplas tags às mensagens**
+
+<p align="center">
+  
+<img width="1846" height="1041" alt="Screenshot from 2026-07-05 21-11-05" src="https://github.com/user-attachments/assets/c9094cb7-6751-466b-a2ec-401136dc535e" width="800"/>
+</p>
+
+
 ---
 
 ## Como acessar cada etapa
@@ -134,6 +179,12 @@ Para acessar a terceira parte:
 
 ```bash
 git checkout bcc481-django-parte3
+```
+
+Para acessar a quarta parte:
+
+```bash
+git checkout bcc481-django-parte4
 ```
 
 Cada branch representa um marco do desenvolvimento do projeto e corresponde ao respectivo roteiro da disciplina.
