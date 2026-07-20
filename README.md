@@ -151,8 +151,48 @@ Nesta etapa foram implementados:
 <img width="1846" height="1041" alt="Screenshot from 2026-07-05 21-11-05" src="https://github.com/user-attachments/assets/c9094cb7-6751-466b-a2ec-401136dc535e" width="800"/>
 </p>
 
-
 ---
+
+### `bcc481-django-parte5`
+
+Contém a implementação da quinta etapa do projeto, introduzindo o **Create** do ciclo **CRUD** por meio de um formulário público desenvolvido com Django.
+
+Nesta etapa foram implementados:
+
+* Criação de um formulário utilizando **ModelForm**;
+* Implementação da operação **Create (C)** do CRUD para cadastro de mensagens;
+* Criação da página **Nova Mensagem** (`/nova/`);
+* Processamento de formulários utilizando os métodos HTTP **GET** e **POST**;
+* Implementação da view responsável por validar e salvar os dados enviados pelo usuário;
+* Criação automática de **Tags** a partir do texto informado no formulário;
+* Associação das tags às mensagens utilizando o relacionamento **ManyToMany**;
+* Proteção do formulário com **CSRF Token**;
+* Implementação do padrão **Post/Redirect/Get (PRG)** para evitar reenvio de formulários;
+* Inclusão de um botão para criação de novas mensagens diretamente na página inicial;
+* Continuidade da organização do projeto seguindo o padrão **MTV (Model–Template–View)** do Django.
+
+#### Capturas de tela
+
+**Página inicial com botão "Nova mensagem"**
+
+<p align="center">
+  <img width="1836" height="1045" alt="Screenshot from 2026-07-19 21-49-22" src="https://github.com/user-attachments/assets/ad15b517-1572-413a-b312-5b7ea9fa9a27" alt="Página inicial com botão Nova mensagem" width="800"/>
+</p>
+
+**Formulário de cadastro de mensagem**
+
+<p align="center">
+  
+<img width="1836" height="1045" alt="Screenshot from 2026-07-19 21-51-16" src="https://github.com/user-attachments/assets/2b719e20-5678-4cf1-babb-5a3ba181beec" alt="Formulário de cadastro de mensagem" width="800"/>
+</p>
+
+**Mensagem cadastrada pela página pública**
+
+<p align="center">
+  
+<img width="1836" height="1045" alt="Screenshot from 2026-07-19 21-50-52" src="https://github.com/user-attachments/assets/336fae07-e8c0-47b1-80e4-359d355d86e7" alt="Mensagem cadastrada pela página pública" width="800"/>
+</p>
+
 
 ## Como acessar cada etapa
 
@@ -185,6 +225,12 @@ Para acessar a quarta parte:
 
 ```bash
 git checkout bcc481-django-parte4
+```
+
+Para acessar a quinta parte:
+
+```bash
+git checkout bcc481-django-parte5
 ```
 
 Cada branch representa um marco do desenvolvimento do projeto e corresponde ao respectivo roteiro da disciplina.
