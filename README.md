@@ -283,12 +283,12 @@ Para acessar a sexta parte:
 git checkout bcc481-django-parte5
 ```
 
-Roteiro 1: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte1
-Roteiro 2: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte2
-Roteiro 3: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte3
-Roteiro 4: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte4
-Roteiro 5: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte5
-Roteiro 6: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte6
+* Roteiro 1: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte1
+* Roteiro 2: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte2
+* Roteiro 3: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte3
+* Roteiro 4: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte4
+* Roteiro 5: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte5
+* Roteiro 6: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte6
 
 
 
