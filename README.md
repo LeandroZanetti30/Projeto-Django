@@ -194,6 +194,50 @@ Nesta etapa foram implementados:
 </p>
 
 
+---
+
+### `bcc481-django-parte6`
+
+Contém a implementação da sexta etapa do projeto, concluindo o ciclo **CRUD** da aplicação por meio da edição e remoção de mensagens diretamente pela interface pública.
+
+Nesta etapa foram implementados:
+
+* Implementação da operação **Update (U)** do CRUD para edição de mensagens;
+* Reaproveitamento do **ModelForm** para atualização dos registros existentes;
+* Utilização de **URLs parametrizadas** para identificar cada mensagem;
+* Busca segura de registros utilizando `get_object_or_404`;
+* Atualização das tags associadas às mensagens utilizando o relacionamento **ManyToMany**;
+* Implementação da operação **Delete (D)** do CRUD para remoção de mensagens;
+* Criação de uma página de confirmação antes da exclusão de registros;
+* Exclusão protegida por requisições **POST** e **CSRF Token**;
+* Inclusão dos botões **Editar** e **Remover** na página inicial;
+* Conclusão do ciclo **CRUD (Create, Read, Update e Delete)** diretamente pela interface da aplicação, sem necessidade do painel administrativo.
+
+#### Capturas de tela
+
+**Página inicial com opções de edição e remoção**
+
+<p align="center">
+  
+<img width="1836" height="1045" alt="Screenshot from 2026-07-19 22-07-46" src="https://github.com/user-attachments/assets/7a050169-1cc1-4299-b1ee-d97b7f9de646"  alt="Página inicial com opções de edição e remoção" width="800"/>
+</p>
+
+**Formulário de edição da mensagem**
+
+<p align="center">
+  <img width="1836" height="1045" alt="Screenshot from 2026-07-19 22-07-08" src="https://github.com/user-attachments/assets/e32de5e6-2450-4f26-adda-5f886f6fc11f" alt="Formulário de edição da mensagem" width="800"/>
+</p>
+
+**Tela de confirmação para remoção**
+
+<p align="center">
+  
+<img width="1836" height="1045" alt="Screenshot from 2026-07-19 22-07-54" src="https://github.com/user-attachments/assets/8878c0f2-f2cb-4e33-b707-30281e21602e" alt="Tela de confirmação para remoção" width="800"/>
+</p>
+
+
+
+
 ## Como acessar cada etapa
 
 Clone o repositório:
@@ -232,5 +276,20 @@ Para acessar a quinta parte:
 ```bash
 git checkout bcc481-django-parte5
 ```
+
+Para acessar a sexta parte:
+
+```bash
+git checkout bcc481-django-parte5
+```
+
+Roteiro 1: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte1
+Roteiro 2: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte2
+Roteiro 3: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte3
+Roteiro 4: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte4
+Roteiro 5: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte5
+Roteiro 6: https://github.com/LeandroZanetti30/Projeto-Django/tree/bcc481-django-parte6
+
+
 
 Cada branch representa um marco do desenvolvimento do projeto e corresponde ao respectivo roteiro da disciplina.
